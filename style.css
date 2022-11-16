@@ -211,6 +211,9 @@ p{
 /*mobile device*/
 
 @media only screen and (max-width: 500px){
+    body{
+        margin: auto auto;
+    }
     .menu-btn{
         display: block;
     }
@@ -240,9 +243,22 @@ p{
     }
 
     /*events*/
-
-    .row{
+    /* .events{
+        display: flex;
+        align-items: center;
+        width: 100%;
+        justify-content: space-around;
         flex-direction: column;
+    } */
+    .row{
+        /* flex-direction: column; */
+        display: flex;
+        align-items: center;
+        width: 100%;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-content: space-around;
+        margin-left: 30px;
     }
     .row .col{
         margin: 20px auto;
