@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="nav-bar">
+        <h1 class="logo">MS-STYLE</h1>
+        <ul class="nav-link">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#">Tours</a></li>
+            <li><a href="#">Explore</a></li>
+            <li><a href="#">About</a></li>
+            <li class="ctn"><a href="#">Contact</a></li>
+        </ul>
+        <img src="menu-btn.png" alt="" class="menu-btn">
+    </nav>
+    <header>
+        <div class="header-content">
+            <h2>Explore the all the style made By Mathy Kagheni</h2>
+            <div class="line"></div>
+            <h1>THE DRESSMAKER OF THE FUTURE</h1>
+            <a href="#" class="ctn">Learn more...</a>
+        </div>
+    </header>
+
+    <!-- EVENT -->
+
+    <section class="events">
+        <div class="title">
+            <h1>Up Coming Events</h1>
+            <div class="line"></div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <img src="img1.png" alt="img1">
+                <h4>Everest Camp Trek</h4>
+                <p>ueujnsnbgyvdsfjkjsdfgyugefjkjfdnf,sdfeygyefwloujdagdiyfeknlkncnfdugafduyefklafkqeyqweojeq.</p>
+                <a href="" class="ctn">Learn More.</a>
+            </div>
+
+            <div class="col">
+                <img src="img2.png" alt="img2">
+                <h4>Walking Holidays</h4>
+                <p>ueujnsnbgyvdsfjkjsdfgyugefjkjfdnf,sdfeygyefwloujdagdiyfeknlkncnfdugafduyefklafkqeyqweojeq.</p>
+                <a href="" class="ctn">Learn More.</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="explore">
+        <div class="explore-content">
+            <h1>EXPLORE THE WORLD</h1>
+            <div class="line"></div>
+            <p>ueujnsnbgyvdsfjkjsdfgyugefjkjfdnf,sdfeygyefwloujdagdiyfeknlkncnfdugafduyefklafkqeyqweojeq.</p>
+            <a href="#" class="ctn">Learn more</a>
+        </div>
+    </section>
+
+    <section class="tours">
+        <div class="row">
+            <div class="col content-col">
+                <h1>UP COMING TOURS & DESTINATION</h1>
+                <div class="line"></div>
+                <p>A dressmaker, also known as a seamstress, is a person who makes custom clothing for women, such as dresses, blouses, and evening gowns. A dressmaker, also known as a seamstress, is a person who makes custom clothing for women, such as dresses, blouses, and evening gowns. Dressmakers were historically known as mantua-makers, and are also known as a modiste or fabrician.</p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+            <div class="col image-col">
+                <div class="image-gallery">
+                    <img src="img3.png" alt="">
+                    <img src="img4.png" alt="">
+                    <img src="img5.png" alt="">
+                    <img src="img6.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer">
+        <p>Yes, the driving distance between Goma to Kinshasa is 2531 km. It takes approximately 2 days 2h to drive from Goma to Kinshasa.</p>
+        <p>Copyright @ 2022 Outdoor Adventure</p>
+    </section>
+
+    <script>
+        const menubnt=document.querySelector('.menu-btn');
+        const navlink=document.querySelector('.nav-link');
+
+        menubnt.addEventListener('click', ()=>{
+            navlink.classList.toggle('mobile-menu');
+        })
+    </script>
+</body>
+</html>
