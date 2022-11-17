@@ -211,8 +211,10 @@ p{
 /*mobile device*/
 
 @media only screen and (max-width: 500px){
-    body{
-        margin: auto auto;
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
     }
     .menu-btn{
         display: block;
@@ -243,13 +245,7 @@ p{
     }
 
     /*events*/
-    /* .events{
-        display: flex;
-        align-items: center;
-        width: 100%;
-        justify-content: space-around;
-        flex-direction: column;
-    } */
+
     .row{
         /* flex-direction: column; */
         display: flex;
@@ -259,6 +255,7 @@ p{
         flex-wrap: wrap;
         align-content: space-around;
         margin-left: 30px;
+        margin-right: 30px;
     }
     .row .col{
         margin: 20px auto;
@@ -266,6 +263,7 @@ p{
     .col img{
         max-width: 90%;
     }
+
     .explore-content{
         width: 100%;
 
